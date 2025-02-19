@@ -3,8 +3,8 @@
 The dataset consists of 90 Chinese movies from IMDb, and multiple machine learning techniques are used to analyze and predict movie popularity.
 
 📂 Dataset and Sources
-- Dataset & Distance Matrices: Google Drive Link
-- Movie List Source: IMDb List
+- Dataset & Distance Matrices: [Link](https://drive.google.com/drive/folders/1N36PT7d21R0kRzbwhGVBNLkApC9oHSf2?usp=sharing)
+- Movie List Source: [IMDb](https://www.imdb.com/list/ls549262458/?ref_=ext_shr_lnk)
 - Logistic Regression Reference: Machine Learning Plus
 - Confusion Matrix Guide: Machine Learning Mastery
 
