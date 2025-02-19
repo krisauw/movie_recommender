@@ -1,6 +1,7 @@
 🎬 Movie Recommender System
 - This project is a Chinese movie recommendation system that suggests movies based on genres, famous actors, endings, voting, and ratings. 
 The dataset consists of 90 Chinese movies from IMDb, and multiple machine learning techniques are used to analyze and predict movie popularity.
+- Project link: [Link](https://drive.google.com/file/d/1MpqZtvKQ_H3SMKUjb8rV10009uify6Au/view?usp=sharing)
 
 📂 Dataset and Sources
 - Dataset & Distance Matrices: [Link](https://drive.google.com/drive/folders/1N36PT7d21R0kRzbwhGVBNLkApC9oHSf2?usp=sharing)
