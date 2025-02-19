@@ -6,7 +6,7 @@ The dataset consists of 90 Chinese movies from IMDb, and multiple machine learni
 - Dataset & Distance Matrices: [Link](https://drive.google.com/drive/folders/1N36PT7d21R0kRzbwhGVBNLkApC9oHSf2?usp=sharing)
 - Movie List Source: [IMDb](https://www.imdb.com/list/ls549262458/?ref_=ext_shr_lnk)
 - Logistic Regression Reference: [Machine Learning Plus](https://www.machinelearningplus.com/machine-learning/logistic-regression-tutorial-examples-r/)
-- Confusion Matrix Guide: MachineLearningMastery.com
+- Confusion Matrix Guide: [Machine Learning Mastery](https://machinelearningmastery.com/confusion-matrix-machine-learning/)
 
 📖 Project Overview
 - The goal of this project is to recommend movies based on similarity metrics and analyze the relationship between movie features and popularity.
