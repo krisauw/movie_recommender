@@ -7,7 +7,7 @@ The dataset consists of 90 Chinese movies from IMDb, and multiple machine learni
 ---
 
 ## **🛠️ Technologies and Methods Used**
-### **Technologies***
+### **Technologies**
 * Python 🐍 (for data cleaning)
 * Pandas 🏷️ (for data processing)
 * Plotly 📊 (for interactive visualizations)
@@ -20,25 +20,29 @@ The dataset consists of 90 Chinese movies from IMDb, and multiple machine learni
 * Apply a decision tree to guess high rating movies based on feature selections through train and test data.
 * Analyze a logistic Regression to portrait probability of high rating based on selected features.
 
-### **Key Findings**
+---
+
+## **🔑 Key Findings**
 For movie recommendations, both Euclidean and Manhattan distance metrics work effectively. Regarding unsupervised methods like K-Means clustering, the results are inconsistent and lack meaningful grouping. Although famous leads may influence ratings, the small dataset limits the validity of such conclusions. For supervised methods such as KNN, Decision Tree, and Logistic Regression, all demonstrated high and relatively similar accuracy rates with low misclassification rates, as summarized in the table below:
 
-![Image](https://github.com/user-attachments/assets/38720e5a-e005-423d-9c20-7bc40fd78db5)
+![Image](https://github.com/user-attachments/assets/af215af5-ee79-443d-9147-459a884ef141)
 
-1. Movie Recommendation:
-- Based on the Euclidean & Manhattan distance, the system suggests 5 similar movies.
-- Example Recommendations:
-  * Kill Me Love Me
-  * Love Me, Love My Voice
-  * Here We Meet Again
-  * The Imperial Coroner
-  * Bohe zhi xia
-2. Best Predictive Model:
-- Decision Tree had the highest accuracy (80%).
-- High voting count was the most important factor in predicting high-rated movies.
-3. Clustering Insights:
-- High voting movies tend to have higher ratings.
-- Happy-ending movies generally receive lower ratings than sad or open-ended movies.
+### **Movie Recommendation**
+#### **Based on the Euclidean & Manhattan distance, the system suggests 5 similar movies**
+(Example Recommendations)
+ * Kill Me Love Me
+ * Love Me, Love My Voice
+ * Here We Meet Again
+ * The Imperial Coroner
+ * Bohe zhi xia
+   
+#### **Best Predictive Model**
+* Decision Tree had the highest accuracy (80%).
+* High voting count was the most important factor in predicting high-rated movies.
+  
+#### **Clustering Insights**
+* High voting movies tend to have higher ratings.
+* Happy-ending movies generally receive lower ratings than sad or open-ended movies.
 
 ---
 
@@ -100,8 +104,11 @@ This dataset contains information on **90 Chinese movie series (1998-2024)**. Be
 ## **🛠️ Result and Visualiations**
 ### **General Data Distribution**
 #### **Treemap Chart**: Highlights top-rated movies, such as Follow Your Heart (8.6) and Hidden Love (8.6).
+
 ![Image](https://github.com/user-attachments/assets/7f046c03-0287-41c8-bc39-80f9f49fba4f)
+
 #### **Pie Chart**: Shows the percentage of genres, with Drama being the most dominant (48.89%).
+
 ![Image](https://github.com/user-attachments/assets/379a0bb8-10a2-43b7-9b49-af55d6b23f45)
 
 ### **Movie Recommendation via Distance Metrics - Euclidean & Manhattan distance**
@@ -207,3 +214,9 @@ Accuracy: 76.7% | Misclassification: 23.3%
 * Analyzing additional factors like critic reviews, audience comments, and streaming data.
 * Exploring budget, revenue, and profit analysis to predict a movie's success.
 * Investigating seasonal movie trends and how audience preferences shift over time.
+
+--- 
+
+## **📩 Contact & Contributions**
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
