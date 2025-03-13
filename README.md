@@ -101,7 +101,7 @@ This dataset contains information on **90 Chinese movie series (1998-2024)**. Be
 
 ---
 
-## **🛠️ Result and Visualiations**
+## **📊 Result and Visualiations**
 ### **General Data Distribution**
 #### **Treemap Chart**: Highlights top-rated movies, such as Follow Your Heart (8.6) and Hidden Love (8.6).
 
@@ -117,10 +117,10 @@ Firstly, 5 titles which are 'Yuan lai wo hen ai ni', 'Lost You Forever', 'Mischi
 Secondly, distances of all movies are calculated including 5 watched movies using Euclidean and Manhattan. There are 15 features to find similarities between movies, which are 'Title', 'Ending_Happy', 'Ending_Sad', 'Ending_Open', 'Genre_Comedy', 'Genre_Drama', 'Genre_Crime', 'Genre_Romance', 'Genre_Action', 'Genre_Adventure', 'Genre_Mystery', 'Genre_Fantasy',  'Female_Famous', 'Male_Famous', 'Main_Famous', 'Is_Summer', 'High_Voting', and 'High_Rating'. Except for Title, others are binary variables.
 
 Thirdly, there are 5 sub steps to get the list of 5 movie recommendations:
-Step 1: Find distances for 5 watched movies - ‘'Yuan lai wo hen ai ni', 'Lost You Forever', 'Mischievous Kiss', 'Amidst a Snowstorm of Love', and 'My Fair Princess' to every other movies from the calculated distance matric results. 
-Step 2: Average the distances of 5 watched movies to every other movies
-Step 3: Order the distances to find the closest movies
-Step 4: Get the top 5 recommendations excluding 5 watched movies
+* Step 1: Find distances for 5 watched movies - ‘'Yuan lai wo hen ai ni', 'Lost You Forever', 'Mischievous Kiss', 'Amidst a Snowstorm of Love', and 'My Fair Princess' to every other movies from the calculated distance matric results. 
+* Step 2: Average the distances of 5 watched movies to every other movies
+* Step 3: Order the distances to find the closest movies
+* Step 4: Get the top 5 recommendations excluding 5 watched movies
 
 Finally, the list of 5 movie suggestions is:
 * "Kill Me Love Me"        
